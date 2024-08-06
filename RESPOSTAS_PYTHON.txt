@@ -1,0 +1,59 @@
+1 - b) 11
+2 - e) Todas as afirmações são verdadeiras.
+3 - c) Hash Table
+4 - b) O(1) ; O(log n) ; O(n) ; O(n log n) ; O(n^2) ; O(2^n) ; O(n!)
+5 - e) As consultas C1 e C2 são equivalentes e retornam o nome e o salário dos chefes das diretorias.
+
+PARTE 2
+
+1 - 
+
+for i in range(17):
+    if i % 3 == 0 and i % 5 == 0:
+        print("baz")
+    elif i % 3 == 0:
+        print("foo")
+    elif i % 5 == 0:
+        print("bar")
+    else:
+        print(i)
+
+2 - 
+
+def count_occurrences(strings):
+    counts = {}
+    for s in strings:
+        key = s.lower()
+        if key in counts:
+            counts[key] += 1
+        else:
+            counts[key] = 1
+    for term, count in counts.items():
+        print(f"{term}={count}")
+
+entrada = ["PaTiNeTe", "SKATE", "Patinete", "BicicletA"]
+count_occurrences(entrada)
+
+
+PARTE 4
+
+1 ) Adquiro novos conhecimentos através de uma combinação de métodos estruturados e experimentação prática.
+Eu costumo fazer cursos online em plataformas como Udemy, Coursera e Pluralsight. Esses cursos me permitem aprofundar em novas tecnologias e aprimorar minhas habilidades em áreas específicas. Além disso, gosto de ler livros técnicos e seguir autores renomados para entender as melhores práticas e abordagens inovadoras.
+Eu sigo blogs e sites de tecnologia como Medium, Dev.to, Hacker News, e Stack Overflow. Também assino newsletters especializadas para ficar por dentro das últimas tendências e novidades do setor.
+Acredito que a troca de conhecimentos é fundamental para o crescimento. Participo ativamente de comunidades de desenvolvedores em redes sociais e fóruns. Além disso, gosto de assistir a conferências, participar de workshops e encontros de desenvolvedores, seja de forma presencial ou virtual.
+Colocar em prática o que aprendo é essencial. Desenvolvo projetos pessoais, participo de desafios de programação em plataformas como LeetCode e HackerRank, e contribuo para projetos open source. Essa prática me ajuda a consolidar o conhecimento e a resolver problemas do mundo real.
+Tenho experiência tanto como mentor quanto como aprendiz, e acredito que essa troca de conhecimentos é enriquecedora para ambas as partes. A mentoria me permite ensinar e aprender ao mesmo tempo, o que é uma excelente maneira de solidificar o entendimento.
+Sou aberto a experimentar novas tecnologias e metodologias. Gosto de explorar novas ferramentas, frameworks e práticas de desenvolvimento para avaliar como elas podem ser integradas no meu trabalho e melhorar os processos e resultados.
+
+2)
+Desenvolvimento de Software:
+
+Clean Code: A Handbook of Agile Software Craftsmanship por Robert C. Martin
+Por quê: Este livro é uma leitura essencial para qualquer desenvolvedor que deseja escrever código mais limpo e sustentável. Robert C. Martin oferece práticas e princípios para melhorar a qualidade do código e facilitar a manutenção a longo prazo.
+
+Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems" por Martin Kleppmann
+Por quê: Este livro é excelente para entender como projetar sistemas que lidam com grandes volumes de dados. Kleppmann aborda conceitos de arquitetura, escalabilidade e confiabilidade com exemplos práticos e teorias fundamentadas.
+
+You Don’t Know JS (Série) por Kyle Simpson
+Por quê: Esta série é perfeita para desenvolvedores que desejam aprofundar seu conhecimento em JavaScript. Kyle Simpson explora o funcionamento interno da linguagem e oferece uma compreensão mais profunda dos conceitos e práticas.
+
